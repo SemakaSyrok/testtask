@@ -1,9 +1,9 @@
-./vendor/bin/sail up -d --build
-./vendor/bin/sail composer install
-./vendor/bin/sail artisan migrate
-./vendor/bin/sail artisan db:seed
-./vendor/bin/npm install
-./vendor/bin/npm run prod
+./vendor/bin/sail up -d --build <br>
+./vendor/bin/sail composer install <br>
+./vendor/bin/sail artisan migrate <br>
+./vendor/bin/sail artisan db:seed <br>
+./vendor/bin/npm install <br>
+./vendor/bin/npm run prod <br>
 
 Для запуска демонов
 docker exec testtask_laravel.test_1 /usr/bin/php8.0 artisan daemon:start
