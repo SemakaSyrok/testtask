@@ -13,6 +13,6 @@ docker exec testtask_laravel.test_1 /usr/bin/php8.0 artisan daemon:stop
 
 Демоны нужны для инкрементации просмотров/лайков
 
-Приложение на http://
+Приложение на http://localhost
 
 Вроде все)
